@@ -11,20 +11,35 @@ include_once("/cfg/adminclass.php");
 $administration = new admin();
 $db = new MyDB();
 $_SESSION["menu"] = $db->getAllCategory();
-$news = $db->getInfoAboutNews();
-$users = $db->getAllUsers();
 
 $action = @$_REQUEST["action"];
-if($action == "confirmUser"){
-    $db ->setTypeUser($_POST["confirmUser"], 2);
-}
+
 if(isset($_POST["publish_news"])){
     $news_id = $_POST['news_id'];
-    echo " id is " .$news_id;
     if($db->publishNews($news_id)){
-        echo "it was goood";
+
     }
 }
+if(isset($_POST["confirm"]) || isset($_POST["unblock"])){
+    $user_id=$_POST["user_id"];
+    if($db->setTypeUser($user_id, 2)){
+
+    }
+}
+if(isset($_POST["block"])){
+    $user_id=$_POST["user_id"];
+    if($db->setTypeUser($user_id, 3)){
+
+    }
+}
+if(isset($_POST["delete"])){
+    $user_id=$_POST["user_id"];
+    if($db->deleteUser($user_id)){
+
+    }
+}
+$news = $db->getInfoAboutNews();
+$users = $db->getAllUsers();
 
 $administration->getAdminTables($_SESSION["menu"], $news, $users);
 

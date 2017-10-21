@@ -14,6 +14,16 @@ class userprocess{
     }
 
     function getUserMainInfo($newsByUser){
+        $type = "";
+        switch($_SESSION["user"]["type_id"]){
+            case 4: $type = "Hi, you are new here!";
+            break;
+            case 3:  $type = "Ops, you are <p class=\"text-danger\"> blocked! </p>";
+                break;
+            case 2: $type = "Hi!";
+                break;
+        }
+
         ?>
 
         <div class="row">
@@ -21,17 +31,17 @@ class userprocess{
                 <div class="well bs-component">
                     <form  action="" method="post" class="form-horizontal">
             <fieldset>
-                <legend>User</legend>
+                <legend><?php echo  $type ?></legend>
                 <div class="form-group">
                     <label for="inputEmail" class="col-lg-2 control-label">Login</label>
                     <div class="col-lg-10">
-                        <input type="text" class="form-control" id="inputDefault"  value="<?php echo $_SESSION["user"]["login"] ?>">
+                        <input type="text" class="form-control" id="inputDefault" disabled=""  value="<?php echo $_SESSION["user"]["login"] ?>">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputEmail" class="col-lg-2 control-label">E-mail</label>
                     <div class="col-lg-10">
-                        <input type="text" class="form-control" id="inputDefault"  value="<?php echo $_SESSION["user"]["email"] ?>">
+                        <input type="text" class="form-control" id="inputDefault"  disabled="" value="<?php echo $_SESSION["user"]["email"] ?>">
                     </div>
                 </div>
 
@@ -46,6 +56,7 @@ class userprocess{
                 </div>
             </div>
         </div>
+        <?php if(count($newsByUser) > 0){ ?>
         <h2>Your news</h2>
         <table class="table table-striped table-hover ">
             <thead>
@@ -72,16 +83,22 @@ class userprocess{
             }
             ?> >
                 <td><em><?php echo  date_format($date, 'd-m-Y') ?></em></td>
-                <td><?php echo $item['title'] ?></td>
+                <td>
+                    <?php if($item['public']==0){ //it is not publish
+
+                    ?>
+                    <a href='index.php?page=addnews&&newsid=<?php echo $item['id']?>' action="set_news">
+                        <?php }else{ ?>
+                        <a href='index.php?page=page&&newsid=<?php echo $item['id']?>' action="open_news">
+                            <?php } ?>
+                            <?php echo $item['title'] ?></a>
+                </td>
                 <td>
                     <?php
                     if($item['public']==1){
                         echo $publiting;
                     }else{?>
-                        <form method="post" class="table_content_form">
-                            <button type="submit"  class="btn btn-success btn-xs" name="edit_news"><?php echo $publiting ; ?> </button>
-                            <input type="hidden" name="news_id" value="<?php echo $item['id'] ?>"/>
-                        </form>
+                            <a href='index.php?page=addnews&&newsid=<?php echo $item['id']?>' type="submit"  class="btn btn-success btn-xs" name="edit_news"><?php echo $publiting ; ?> </a>
                     <?php }?>
                 </td>
             </tr>
@@ -89,8 +106,8 @@ class userprocess{
             </tr>
             </tbody>
         </table>
-
         <?php
+        }
     }
 
 

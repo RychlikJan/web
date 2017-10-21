@@ -6,13 +6,29 @@ include_once("/cfg/opennews.php");
 $db = new MyDB();
 $home = new viewNews();
 $action = @$_REQUEST["action"];
-echo "it is " .$action;
 
-if($action == "by_category"){
+if(isset($_POST["publish_news"])){
+    $news_id = $_POST['news_id'];
+    if($db->publishNews($news_id)){
+       ?>
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Well done!</strong> News was publishing</a>.
+        </div>
 
-}else{
-    $idNews = @$_REQUEST["newsid"];
-    $home->getNewsTemplate($db->getOneNewsWithArrayComment($idNews));
+<?php
+    }
 }
+if(isset($_POST["post_comment"])){
+    $news_id = $_POST['news_id'];
+    $user_id = $_SESSION["user"]["id"];
+    $text_comment = $_REQUEST['text_comment'];
+    if($db->addNewComment($user_id, $news_id, $text_comment)){
+
+    }
+}
+
+$idNews = @$_REQUEST["newsid"];
+$home->getNewsTemplate($db->getOneNewsWithArrayComment($idNews), $db->getAllCommentByNewsId($idNews));
 
 ?>

@@ -82,7 +82,51 @@ class MyDB{
             print_r($errors);
             echo "SQL : $query";
         }
+    }
 
+    function deleteUser($id_user){
+        $mysql_pdo_error = false;
+        $query = 'delete from user where user.id=:id_user;';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':id_user', $id_user, PDO::PARAM_INT);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+    }
+
+    function setNews($idNews, $newTitle, $newText, $category_id, $imageNews){
+        $mysql_pdo_error = false;
+        $query = 'UPDATE news SET title=:title, note=:note, category_id=:category_id, image_news_url=:image_news_url
+ WHERE news.id = :id_news;';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':title', $newTitle, PDO::PARAM_STR);
+        $sth->bindValue(':note', $newText, PDO::PARAM_STR);
+        $sth->bindValue(':category_id', $category_id, PDO::PARAM_INT);
+        $sth->bindValue(':image_news_url', $imageNews, PDO::PARAM_STR);
+        $sth->bindValue(':id_news', $idNews, PDO::PARAM_INT);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
     }
 
     function addNewNews( $title, $text, $user_id, $category_id, $imageNews){
@@ -110,9 +154,33 @@ class MyDB{
             print_r($errors);
             echo "SQL : $query";
         }
-
     }
-    
+
+    function addNewComment($user_id, $news_id, $text_comment){
+        $mysql_pdo_error = false;
+        $query = 'INSERT INTO comment (user_id, news_id, comment, date_comment)
+            VALUES (:user_id, :news_id, :text_comment, :date_today )';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':user_id', $user_id, PDO::PARAM_INT);
+        $sth->bindValue(':news_id', $news_id, PDO::PARAM_INT);
+        $sth->bindValue(':text_comment', $text_comment, PDO::PARAM_STR);
+        $sth->bindValue(':date_today', date("Y-m-d H:i:s"), PDO::PARAM_STR);
+
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+    }
+
     function addNewUser($loginNewUser, $emailNewUser, $pswNewUser){
             $mysql_pdo_error = false;
             echo "<br>add new user";
@@ -206,7 +274,7 @@ where user.type_id=type_user.id;";
 
     function getOneNewsWithArrayComment($id){
         $mysql_pdo_error = false;
-        $query = "SELECT title, date, note, public, image_news_url,  login, category_name, image_url from news, user, category 
+        $query = "SELECT news.id, title, date, note, public, image_news_url,  login, category_name, image_url from news, user, category 
 where news.id=:id and news.user_id=user.id and news.category_id=category.id;";
 
         $sth = $this->conn->prepare($query);
@@ -222,6 +290,29 @@ where news.id=:id and news.user_id=user.id and news.category_id=category.id;";
             //Возвращаем следующую строку в виде массива, индексированного именами столбцов
             //http://php.net/manual/ru/pdostatement.fetch.php
             return $ourUser[0];
+        }
+        else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+    }
+
+    function getAllCommentByNewsId($news_id){
+        $mysql_pdo_error = false;
+        $query = "select comment.id, user.login, news_id, comment, date_comment from comment, 
+user where news_id=:newsid and user.id=comment.user_id;";
+
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':newsid', $news_id, PDO::PARAM_INT);
+        $sth->execute();
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            $all = $sth->fetchAll(PDO::FETCH_ASSOC);
+            return $all;
         }
         else{
             echo "Eror - PDOStatement::errorInfo(): ";
@@ -391,7 +482,7 @@ FROM  news, user,category where public='1' and news.user_id = user.id and catego
      	}
         if ($mysql_pdo_error == false){
             $ourUser = $sth->fetchAll(PDO::FETCH_ASSOC);
-            echo '<pre>', print_r($ourUser, true), '</pre>';
+//            echo '<pre>', print_r($ourUser, true), '</pre>';
             //Возвращаем следующую строку в виде массива, индексированного именами столбцов
             //http://php.net/manual/ru/pdostatement.fetch.php
      		return $ourUser[0];

@@ -16,7 +16,8 @@
             }
             else{
                 $typeNumber = @$_SESSION["user"]["type_id"];
-                $logUser ->infoUser();
+//                $logUser ->infoUser();
+                $page="home";
             }
 
     }

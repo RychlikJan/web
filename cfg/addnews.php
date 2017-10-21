@@ -21,6 +21,16 @@
             <?php
         }
 
+        function alertNewsWasEdited(){
+            ?>
+            <div class="alert alert-dismissible alert-success">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Well don!.</strong> Your news was edit. Please waiting for confirmation from admin.
+            </div>
+
+            <?php
+        }
+
         function getFormForNews($category){
 
             ?>
@@ -72,32 +82,34 @@
         }
 
         function setNews($news, $category){
+//            echo '<pre>', print_r($news, true), '</pre>';
             ?>
             <div class="row">
                 <div class="col-lg-10">
                     <div class="well bs-component">
                         <form  action="" method="post" class="form-horizontal">
                             <fieldset>
-                                <legend>New news </legend>
+                                <legend>Set news </legend>
                                 <div class="form-group">
                                     <label class="control-label" for="inputDefault">Title</label>
                                     <input type="text" placeholder="Title" required class="form-control"
-                                           name="newTitle" id="inputDefault" value="<?php $news["title"] ?>">
+                                           name="newTitle" id="inputDefault" value="<?php echo $news["title"] ?>">
                                 </div>
                                 <div class="form-group">
                                     <label for="textArea" class="control-label">Text</label>
-                                    <textarea class="form-control" rows="10" name="newText" id="textArea"><?php $news["note"] ?></textarea>
+                                    <textarea class="form-control" rows="10" name="newText" id="textArea"><?php echo $news["note"] ?></textarea>
                                     <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" for="inputDefault">Image news</label>
                                     <input type="text" placeholder="Image" required class="form-control"
-                                           name="imageNews" id="inputDefault" value="<?php $news["image_news_url"] ?>">
+                                           name="imageNews" id="inputDefault" value="<?php echo $news["image_news_url"] ?>">
                                 </div>
+
                                 <div class="form-group">
                                     <label for="select" class="col-lg-2 control-label">Category</label>
                                     <div class="col-lg-10">
-                                        <select class="form-control" name="select">
+                                        <select class="form-control" name="selectCategory">
                                             <?php foreach($category as $item){?>
                                                 <option value="<?php echo $item['id']?>"><?php echo $item['category_name']?></option>
                                             <?php } ?>

@@ -11,8 +11,8 @@
             ?>
             <div class="jumbotron">
                 <h1>Hi!</h1>
-                <p>Это простая и очень выразительная часть с большим экраном, для привлечения дополнительного внимания к вашей информации</p>
-                <p><a class="btn btn-primary btn-lg" role="button">Узнать больше</a></p>
+                <p>Now, now you are new user. You can see your account
+                    <a href='index.php?page=userconsole'>here</a> or add new news <a href='index.php?page=addnews'>here</a>. </p>
             </div>
 
             <?php
