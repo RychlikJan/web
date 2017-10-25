@@ -3,8 +3,12 @@
 session_start();
 
 define("INDEX", ""); // ????????? ????????? ???????? ???????????
-include("model/menu.php"); //get menu
-require_once("/cfg/core.php"); // ??????????? ????
+include("model/menu.mod.class.php"); //get menu
+require_once("/model/database.mod.class.php"); // ??????????? ????
+//wrapper
+require_once ("model/phpWrapper.mod.class.php");
+$wrapper = new wrapper();
+
 $menu = new myMenu();
 $page = @$_REQUEST["page"];
 $db = new MyDB();
@@ -24,48 +28,36 @@ case "userconsole": $filename = $pages[5]; break;
 case "admin": $filename =$pages[6]; break;
 case "addnews": $filename=$pages[7]; break;
 case "page": $filename=$pages[8]; break;
-        //+ 404
+    default:$filename = $pages[9];//404
+        break;
+
 }
 
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css\sandstone\bootstrap.css" media="screen">
-        <link rel="stylesheet" href="css\sandstone\bootstrap.min.css">
-        <link rel="stylesheet" href="../css/assets/css/custom.min.css">
-        <link rel="stylesheet" href="\css\mystyle.css">
-        <script type="text/javascript" src="bootstrap/bootstrap.js" charset="UTF-8"></script>
-        <script src="/js/ValidationFormScript.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-        <title><?php $page?></title>
-    </head>
-    <body>
-       <div class="container">
-<?php
+$content = $wrapper ->phpWrapperFromFile($filename);
 $getMenu = $menu->getMenuByUser( $category);
-?>
+$title = $menu->namepage($page);
 
-           
-<?php
-include($filename);
-?>
-           <footer>
-               <div class="row">
-                   <div class="col-lg-10">
-                       <p>Made by <a href="https://www.facebook.com/marjia.sivakova" rel="nofollow">Sivakova Maryia</a>. Contact me at <a href="mailto:mari.sivakova@seznam.cz">mari.sivakova@seznam.cz</a>.</p>
-                   </div>
-               </div>
-           </footer>
+    // nacist twig - kopie z dokumentace
+    require_once 'twig-master/lib/Twig/Autoloader.php';
+    Twig_Autoloader::register();
 
-       </div>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    </body>
-</html>
+    // cesta k adresari se sablonama - od index.php
+    $loader = new Twig_Loader_Filesystem('sablon');
+    $twig = new Twig_Environment($loader); // takhle je to bez cache
+
+
+    // nacist danou sablonu z adresare
+    $template = $twig->loadTemplate('sablon.html');
+
+
+
+    // render vrati data pro vypis nebo display je vypise
+    // v poli jsou data pro vlozeni do sablony
+    $template_params = array();
+    $template_params["menu"] = $getMenu;
+    $template_params["content"] = $content;
+    $template_params["title"] = $title;
+    echo $template->render($template_params);
+
+
+?>
