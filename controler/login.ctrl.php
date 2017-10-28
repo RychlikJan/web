@@ -11,6 +11,7 @@
     if($action == "login"){
             $username = $_REQUEST['username'];
             $userpassword = $_REQUEST['userpassword'];
+//            echo "password is ".$userpassword;
             if(!$db->loginUserInDataBaze($username, $userpassword)){
                 $alert = false;
             }

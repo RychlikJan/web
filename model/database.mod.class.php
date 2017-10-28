@@ -49,9 +49,103 @@ class MyDB{
             return false;
         }
     }
-    
+
+    /***
+     * return true if login is exist
+     * @param $loginForControl
+     * @return bool
+     */
+    function controlLoginForRepeat($loginForControl){
+        $mysql_pdo_error = false;
+        $query = 'SELECT login from user where login=:loginForControl;';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':loginForControl', $loginForControl, PDO::PARAM_STR);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            $allDate = $sth->fetchAll(PDO::FETCH_ASSOC);
+            if($allDate!= null){
+                return true;
+            }else{
+                return false;
+            }
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+    }
+
+    function setUsersLogin($idUser, $newLogin){
+        $mysql_pdo_error = false;
+        $query = 'UPDATE user SET login=:new_login WHERE user.id = :user_id;';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':new_login', $newLogin, PDO::PARAM_STR);
+        $sth->bindValue(':user_id', $idUser, PDO::PARAM_INT);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+    }
+
+    function setUsersEmail($idUser, $newEmail){
+        $mysql_pdo_error = false;
+        $query = 'UPDATE user SET email=:new_email WHERE user.id = :user_id;';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':new_email', $newEmail, PDO::PARAM_STR);
+        $sth->bindValue(':user_id', $idUser, PDO::PARAM_INT);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+    }
+
+    function setUsersPassword($idUser, $newPassword){
+        $mysql_pdo_error = false;
+        $query = 'UPDATE user SET password=:new_password WHERE user.id = :user_id;';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':new_password', $newPassword, PDO::PARAM_STR);
+        $sth->bindValue(':user_id', $idUser, PDO::PARAM_INT);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+    }
+
     function controlLoginAndPassword($login, $password){        
         $pom = $this->getAllInfoUsers($login);
+//        echo '<pre>', print_r($pom, true), '</pre>';
+
         if($pom != null && $pom["password"]== $password){
             return true;
         }else{
@@ -132,7 +226,6 @@ class MyDB{
 
     function addNewNews( $title, $text, $user_id, $category_id, $imageNews){
         $mysql_pdo_error = false;
-        echo "<br>add new news";
         $query = 'INSERT INTO news (title, date, note, user_id, category_id, public, image_news_url)
             VALUES (:title, :date_today, :text, :user_id, :category_id, 0, :image_news_url );';
         $sth = $this->conn->prepare($query);
@@ -184,7 +277,6 @@ class MyDB{
 
     function addNewUser($loginNewUser, $emailNewUser, $pswNewUser){
             $mysql_pdo_error = false;
-            echo "<br>add new user";
             $query = 'INSERT INTO user (login, email, password, type_id)
             VALUES (:loginUser, :emailUser, :passwordUser, 4 )';
             $sth = $this->conn->prepare($query);
@@ -468,9 +560,38 @@ FROM  news, user,category where public='1' and news.user_id = user.id and catego
     }
 
 
+    function getAllInfoUsersByID($idUser){
+        $mysql_pdo_error = false;
+        $query = "select user.id, login, password, email, type_id, type_name from user,type_user
+     			  where user.id = :idlogin
+     			  and type_user.id = user.type_id;";
+
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':idlogin', $idUser, PDO::PARAM_INT);
+        $sth->execute();
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            $ourUser = $sth->fetchAll(PDO::FETCH_ASSOC);
+//            echo '<pre>', print_r($ourUser, true), '</pre>';
+            //Возвращаем следующую строку в виде массива, индексированного именами столбцов
+            //http://php.net/manual/ru/pdostatement.fetch.php
+            return $ourUser[0];
+//            }
+        }
+        else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+    }
+
+
     function getAllInfoUsers($login){        
         $mysql_pdo_error = false;
-         $query = "select * from user,type_user
+         $query = "select user.id, login, password, email, type_id, type_name from user,type_user
      			  where login = :loginUser
      			  and type_user.id = user.type_id;";
 

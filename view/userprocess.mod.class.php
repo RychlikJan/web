@@ -18,7 +18,7 @@ class userprocess{
         switch($_SESSION["user"]["type_id"]){
             case 4: $type = "Hi, you are new here!";
             break;
-            case 3:  $type = "Ops, you are <p class=\"text-danger\"> blocked! </p>";
+            case 3:  $type = "<p class=\"text-danger\"> Ops, you are blocked! </p>";
                 break;
             case 2: $type = "Hi!";
                 break;
@@ -31,7 +31,7 @@ class userprocess{
                 <div class="well bs-component">
                     <form  action="" method="post" class="form-horizontal">
             <fieldset>
-                <legend><?php echo  $type ?></legend>
+                <legend><?php echo  $type ?> (your ID is <?php echo $_SESSION["user"]["id"]?>)</legend>
                 <div class="form-group">
                     <label for="inputEmail" class="col-lg-2 control-label">Login</label>
                     <div class="col-lg-10">
@@ -123,20 +123,23 @@ class userprocess{
                             <div class="form-group">
                                 <label for="inputEmail" class="col-lg-2 control-label">Login</label>
                                 <div class="col-lg-10">
-                                    <input type="text" class="form-control" id="inputDefault"  value="<?php echo $_SESSION["user"]["login"] ?>">
+                                    <input type="text" class="form-control" id="inputDefault"  name="newuserlogin"
+                                           value="<?php echo $_SESSION["user"]["login"] ?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputEmail" class="col-lg-2 control-label">E-mail</label>
                                 <div class="col-lg-10">
-                                    <input type="text" class="form-control" id="inputDefault"  value="<?php echo $_SESSION["user"]["email"] ?>">
+                                    <input type="text" class="form-control" id="inputDefault"  name="newUserEmail"
+                                           value="<?php echo $_SESSION["user"]["email"] ?>">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="inputPassword" class="col-lg-2 control-label">Password</label>
                                 <div class="col-lg-10">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" autocomplete="off">
+                                    <input type="password" class="form-control" id="inputPassword"  name="newUserPassword"
+                                           placeholder="Password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" autocomplete="off">
                                 </div>
                             </div>
                             <input type="hidden" name="action" value="save_user_info"><!--  action here  -->

@@ -44,7 +44,9 @@
             <br>
             <div class="row">
                 <div class="col-lg-10">
-                    <?php echo $news['note'];?>
+                    <div class="news_template">
+                        <?php echo $news['note'];?>
+                    </div>
                 </div>
             </div>
 

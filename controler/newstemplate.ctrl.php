@@ -19,10 +19,15 @@ if($action == "addnews"){
     $newText = $_REQUEST['newText'];
     $category = $_REQUEST['selectCategory'];
     $imageNews = $_REQUEST['imageNews'];
+//            echo '<pre>', print_r($_SESSION["user"], true), '</pre>';
 
-//    echo "info user is ".$user_id." title ".$newTitle." text ".$newText. " category is ".$category."<br>";
-    $db->addNewNews($newTitle, $newText, $user_id, $category, $imageNews);
-    $news->alertNewsWasAdded();
+//    echo "id user is ".$user_id." title ".$newTitle." <br>";
+    if($db->addNewNews($newTitle, $newText, $user_id, $category, $imageNews)){
+        $news->alertNewsWasAdded();
+    }else{
+
+    }
+
 }else if($action == "setnews"){
     $idNews = @$_REQUEST["newsid"];
     $newTitle = $_REQUEST['newTitle'];
@@ -30,14 +35,13 @@ if($action == "addnews"){
     $category = $_REQUEST['selectCategory'];
     $imageNews = $_REQUEST['imageNews'];
 
-    echo "info user is ".$category."<br>";
     if($db->setNews($idNews, $newTitle, $newText, $category, $imageNews)){
         $news->alertNewsWasEdited();
     }
 }else if($idNews ==  ""){
     $news->getFormForNews($db -> getAllCategory());
 }else{
-    $news->setNews($db->getOneNewsWithArrayComment($idNews),$category);
+    $news->setNews($db->getOneNewsWithArrayComment($idNews),$db->getAllCategory());
 }
 
 

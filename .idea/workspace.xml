@@ -2,701 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad365c25-7e2c-49fc-9a0f-dbf025f6931a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/phar/phar-sample.phar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/phpWrapper.mod.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sablon/sablon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/README.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/advanced.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/advanced_legacy.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/api.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/coding_standards.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/deprecated.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/abs.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/batch.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/capitalize.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/convert_encoding.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/date.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/date_modify.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/default.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/escape.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/first.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/format.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/join.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/json_encode.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/keys.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/last.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/length.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/lower.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/merge.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/nl2br.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/number_format.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/raw.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/replace.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/reverse.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/round.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/slice.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/sort.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/split.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/striptags.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/title.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/trim.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/upper.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/filters/url_encode.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/attribute.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/block.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/constant.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/cycle.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/date.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/dump.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/include.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/max.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/min.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/parent.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/random.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/range.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/source.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/functions/template_from_string.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/installation.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/internals.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/intro.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/recipes.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/autoescape.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/block.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/do.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/embed.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/extends.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/filter.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/flush.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/for.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/from.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/if.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/import.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/include.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/macro.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/sandbox.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/set.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/spaceless.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/use.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tags/verbatim.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/templates.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/constant.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/defined.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/divisibleby.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/empty.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/even.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/iterable.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/null.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/odd.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/doc/tests/sameas.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/ext/twig/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/ext/twig/config.m4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/ext/twig/config.w32" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/ext/twig/php_twig.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/ext/twig/twig.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Autoloader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/BaseNodeVisitor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Cache/Filesystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Cache/Null.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/CacheInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Compiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/CompilerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Environment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Error/Loader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Error/Runtime.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Error/Syntax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/ExistsLoaderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/ExpressionParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/Core.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/Debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/Escaper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/GlobalsInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/InitRuntimeInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/Optimizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/Profiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/Sandbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/Staging.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Extension/StringLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/ExtensionInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/FileExtensionEscapingStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Filter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Filter/Function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Filter/Method.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Filter/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/FilterCallableInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/FilterInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Function/Function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Function/Method.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Function/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/FunctionCallableInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/FunctionInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Lexer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/LexerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Loader/Array.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Loader/Chain.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Loader/Filesystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Loader/String.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/LoaderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Markup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/AutoEscape.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Block.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/BlockReference.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Body.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/CheckSecurity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Do.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Embed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Array.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/AssignName.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/And.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/BitwiseAnd.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/BitwiseOr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/BitwiseXor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Concat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Div.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/EndsWith.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Equal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/FloorDiv.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Greater.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/GreaterEqual.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/In.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Less.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/LessEqual.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Matches.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Mod.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Mul.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/NotEqual.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/NotIn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Or.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Power.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Range.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/StartsWith.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Binary/Sub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/BlockReference.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Call.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Conditional.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Constant.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/ExtensionReference.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Filter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Filter/Default.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/GetAttr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/MethodCall.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Name.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/NullCoalesce.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Parent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/TempName.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Test/Constant.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Test/Defined.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Test/Divisibleby.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Test/Even.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Test/Null.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Test/Odd.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Test/Sameas.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Unary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Unary/Neg.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Unary/Not.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Expression/Unary/Pos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Flush.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/For.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/ForLoop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/If.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Import.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Include.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Macro.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Print.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Sandbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/SandboxedPrint.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Set.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/SetTemp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Spaceless.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Node/Text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/NodeInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/NodeOutputInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/NodeTraverser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/NodeVisitor/Escaper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/NodeVisitor/Optimizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/NodeVisitor/SafeAnalysis.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/NodeVisitor/Sandbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/NodeVisitorInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/ParserInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Profiler/Dumper/Blackfire.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Profiler/Dumper/Html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Profiler/Dumper/Text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Profiler/Node/EnterProfile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Profiler/Node/LeaveProfile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Profiler/NodeVisitor/Profiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Profiler/Profile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/RuntimeLoaderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Sandbox/SecurityError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Sandbox/SecurityNotAllowedFilterError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Sandbox/SecurityNotAllowedFunctionError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Sandbox/SecurityNotAllowedMethodError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Sandbox/SecurityNotAllowedPropertyError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Sandbox/SecurityNotAllowedTagError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Sandbox/SecurityPolicy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Sandbox/SecurityPolicyInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/SimpleFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/SimpleFunction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/SimpleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Source.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/SourceContextLoaderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TemplateInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Test/Function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Test/IntegrationTestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Test/Method.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Test/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Test/NodeTestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TestCallableInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TestInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/AutoEscape.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Block.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Do.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Embed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Extends.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Filter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Flush.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/For.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/From.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/If.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Import.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Include.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Macro.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Sandbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Set.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Spaceless.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParser/Use.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParserBroker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParserBrokerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenParserInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/TokenStream.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Util/DeprecationCollector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/lib/Twig/Util/TemplateDirIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/AutoloaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Cache/FilesystemTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/CompilerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/EnvironmentTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/ErrorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/ExpressionParserTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Extension/CoreTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Extension/SandboxTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/FileCachingTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/FileExtensionEscapingStrategyTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/FilesystemHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/autoescape/block.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/autoescape/name.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/errors/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/errors/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/child_contents_outside_blocks.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/multiline_array_with_undefined_variable.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/multiline_array_with_undefined_variable_again.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/multiline_function_with_undefined_variable.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/multiline_function_with_unknown_argument.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/multiline_tag_with_undefined_variable.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/syntax_error_in_reused_template.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/unclosed_tag.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/undefined_parent.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/undefined_template_in_child_template.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/exceptions/undefined_trait.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/array.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/array_call.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/binary.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/bitwise.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/comparison.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/divisibleby.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/dotdot.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/ends_with.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/grouping.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/literals.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/magic_call.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/matches.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/method_call.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/negative_numbers.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/operators_as_variables.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/postfix.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/sameas.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/starts_with.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/strings.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/ternary_operator.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/ternary_operator_noelse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/ternary_operator_nothen.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/two_word_operators_as_variables.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/unary.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/unary_macro_arguments.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/expressions/unary_precedence.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/abs.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/batch.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/batch_float.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/batch_with_empty_fill.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/batch_with_exact_elements.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/batch_with_fill.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/batch_with_keys.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/batch_with_zero_elements.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/convert_encoding.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/date.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/date_default_format.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/date_default_format_interval.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/date_immutable.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/date_interval.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/date_modify.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/date_namedargs.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/default.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/dynamic_filter.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/escape.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/escape_html_attr.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/escape_non_supported_charset.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/first.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/force_escape.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/format.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/join.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/json_encode.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/last.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/length.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/length_utf8.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/merge.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/nl2br.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/number_format.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/number_format_default.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/replace.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/replace_invalid_arg.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/reverse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/round.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/slice.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/sort.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/special_chars.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/split.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/split_utf8.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/static_calls.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/trim.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/urlencode.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/filters/urlencode_deprecated.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/attribute.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/block.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/constant.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/cycle.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/date.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/date_namedargs.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/dump.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/dump_array.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/dynamic_function.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/assignment.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/autoescaping.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/expression.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/ignore_missing.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/missing.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/missing_nested.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/sandbox.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/sandbox_disabling.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/sandbox_disabling_ignore_missing.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/template_instance.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/templates_as_array.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/with_context.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/include/with_variables.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/magic_call.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/magic_call53.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/max.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/min.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/range.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/recursive_block_with_inheritance.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/source.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/special_chars.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/static_calls.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/functions/template_from_string.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/macros/default_values.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/macros/nested_calls.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/macros/reserved_variables.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/macros/simple.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/macros/varargs.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/macros/varargs_argument.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/macros/with_filters.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/regression/combined_debug_info.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/regression/empty_token.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/regression/issue_1143.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/regression/multi_word_tests.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/regression/simple_xml_element.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/regression/strings_like_numbers.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/blocks.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/double_escaping.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/functions.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/literal.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/nested.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/objects.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/raw.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/strategy.legacy.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/strategy.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/type.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/with_filters.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/with_filters_arguments.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/with_pre_escape_filters.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/autoescape/with_preserves_safety_filters.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/block/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/block/block_unique_name.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/block/special_chars.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/embed/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/embed/complex_dynamic_parent.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/embed/dynamic_parent.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/embed/error_line.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/embed/multiple.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/embed/nested.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/embed/with_extends.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/filter/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/filter/json_encode.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/filter/multiple.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/filter/nested.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/filter/with_for_tag.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/filter/with_if_tag.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/condition.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/context.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/else.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/inner_variables.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/keys.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/keys_and_values.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/loop_context.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/loop_context_local.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/loop_not_defined.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/loop_not_defined_cond.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/nested_else.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/objects.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/objects_countable.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/recursive.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/for/values.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/from.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/if/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/if/expression.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/expression.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/ignore_missing.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/missing.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/missing_nested.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/only.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/template_instance.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/templates_as_array.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/include/with_variables.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/block_expr.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/block_expr2.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/conditional.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/dynamic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/empty.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/extends_as_array.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/extends_as_array_with_empty_name.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/extends_as_array_with_null_name.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/multiple.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/multiple_dynamic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/nested_blocks.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/nested_blocks_parent_only.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/nested_inheritance.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/parent.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/parent_change.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/parent_in_a_block.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/parent_isolation.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/parent_nested.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/parent_without_extends.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/parent_without_extends_but_traits.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/template_instance.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/inheritance/use.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/endmacro_name.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/external.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/from.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/from_with_reserved_name.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/global.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/import_with_reserved_nam.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/reserved_name.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/self_import.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/special_chars.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/macro/super_globals.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/raw/basic.legacy.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/raw/mixed_usage_with_raw.legacy.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/raw/whitespace_control.legacy.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/sandbox/not_valid1.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/sandbox/not_valid2.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/sandbox/simple.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/set/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/set/capture-empty.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/set/capture.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/set/expression.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/spaceless/simple.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/special_chars.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/trim_block.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/aliases.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/deep.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/deep_empty.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/inheritance.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/inheritance2.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/multiple.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/multiple_aliases.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/parent_block.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/parent_block2.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/use/parent_block3.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/verbatim/basic.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/verbatim/mixed_usage_with_raw.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tags/verbatim/whitespace_control.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/array.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/constant.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/defined.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/empty.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/even.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/in.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/in_with_objects.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/iterable.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/null_coalesce.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Fixtures/tests/odd.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/IntegrationTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/LegacyFixtures/autoescape/filename.legacy.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/LegacyFixtures/test.legacy.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/LegacyIntegrationTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/LexerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/ArrayTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/ChainTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/FilesystemTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/inheritance/array_inheritance_empty_parent.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/inheritance/array_inheritance_nonexistent_parent.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/inheritance/array_inheritance_null_parent.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/inheritance/array_inheritance_valid_parent.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/inheritance/parent.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/inheritance/spare_parent.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/named/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/named_bis/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/named_final/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/named_quater/named_absolute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/named_ter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/normal/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/normal_bis/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/normal_final/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/normal_ter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/themes/theme1/blocks.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Loader/Fixtures/themes/theme2/blocks.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/NativeExtensionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/AutoEscapeTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/BlockReferenceTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/BlockTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/DoTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/ArrayTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/AssignNameTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/AddTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/AndTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/ConcatTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/DivTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/FloorDivTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/ModTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/MulTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/OrTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Binary/SubTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/CallTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/ConditionalTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/ConstantTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/FilterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/FunctionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/GetAttrTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/NameTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/PHP53/FilterInclude.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/PHP53/FunctionInclude.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/PHP53/TestInclude.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/ParentTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/TestTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Unary/NegTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Unary/NotTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/Expression/Unary/PosTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/ForTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/IfTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/ImportTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/IncludeTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/MacroTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/ModuleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/PrintTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/SandboxTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/SandboxedPrintTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/SetTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/SpacelessTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Node/TextTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/NodeVisitor/OptimizerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/ParserTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Profiler/Dumper/AbstractTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Profiler/Dumper/BlackfireTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Profiler/Dumper/HtmlTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Profiler/Dumper/TextTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/Profiler/ProfileTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/TemplateTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/TokenStreamTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/Twig/Tests/escapingTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twig-master/test/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/404.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/www.iml" afterPath="$PROJECT_DIR$/.idea/www.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.php.core/__language__/f019483/posix.php" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.php.core/__language__/f019483/posix.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.php.core/__language__/f019483/ssh2.php" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.php.core/__language__/f019483/ssh2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.php.core/__language__/f019483/standard.php" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.php.core/__language__/f019483/standard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/assets/js/bsa.js" afterPath="$PROJECT_DIR$/css/assets/js/bsa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/flatly/bootstrap.css" afterPath="$PROJECT_DIR$/css/flatly/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/flatly/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/flatly/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sandstone/bootstrap.css" afterPath="$PROJECT_DIR$/css/sandstone/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sandstone/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/sandstone/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/superhero/bootstrap.css" afterPath="$PROJECT_DIR$/css/superhero/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/superhero/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/superhero/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db091017.sql" afterPath="$PROJECT_DIR$/db091017.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.php" afterPath="$PROJECT_DIR$/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/add_vhost_english.php" afterPath="$PROJECT_DIR$/wamplangues/add_vhost_english.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/add_vhost_french.php" afterPath="$PROJECT_DIR$/wamplangues/add_vhost_french.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/add_vhost_hellenic.php" afterPath="$PROJECT_DIR$/wamplangues/add_vhost_hellenic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/add_vhost_macedonian.php" afterPath="$PROJECT_DIR$/wamplangues/add_vhost_macedonian.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/add_vhost_portuguese.php" afterPath="$PROJECT_DIR$/wamplangues/add_vhost_portuguese.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/add_vhost_romanian.php" afterPath="$PROJECT_DIR$/wamplangues/add_vhost_romanian.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/add_vhost_turkish.php" afterPath="$PROJECT_DIR$/wamplangues/add_vhost_turkish.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/index_english.php" afterPath="$PROJECT_DIR$/wamplangues/index_english.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/index_french.php" afterPath="$PROJECT_DIR$/wamplangues/index_french.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/index_hellenic.php" afterPath="$PROJECT_DIR$/wamplangues/index_hellenic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/index_macedonian.php" afterPath="$PROJECT_DIR$/wamplangues/index_macedonian.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/index_portuguese.php" afterPath="$PROJECT_DIR$/wamplangues/index_portuguese.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/index_romanian.php" afterPath="$PROJECT_DIR$/wamplangues/index_romanian.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wamplangues/index_turkish.php" afterPath="$PROJECT_DIR$/wamplangues/index_turkish.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cfg/addnews.php" afterPath="$PROJECT_DIR$/view/addnews.mod.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cfg/adminclass.php" afterPath="$PROJECT_DIR$/view/admin.mod.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cfg/core.php" afterPath="$PROJECT_DIR$/model/database.mod.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cfg/loginprocess.php" afterPath="$PROJECT_DIR$/view/loginprocess.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cfg/opennews.php" afterPath="$PROJECT_DIR$/model/opennews.mod.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cfg/registrationprocess.php" afterPath="$PROJECT_DIR$/model/registrationprocess.mod.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cfg/userprocess.php" afterPath="$PROJECT_DIR$/view/userprocess.mod.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/admin.php" afterPath="$PROJECT_DIR$/controler/admin.ctrl.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/category.php" afterPath="$PROJECT_DIR$/controler/category.ctrl.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/contact.php" afterPath="$PROJECT_DIR$/controler/contact.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/home.php" afterPath="$PROJECT_DIR$/controler/home.ctrl.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/login.php" afterPath="$PROJECT_DIR$/controler/login.ctrl.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/newstemplate.php" afterPath="$PROJECT_DIR$/controler/newstemplate.ctrl.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/page.php" afterPath="$PROJECT_DIR$/controler/page.ctrl.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/registration.php" afterPath="$PROJECT_DIR$/controler/registration.ctrl.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/userconsole.php" afterPath="$PROJECT_DIR$/controler/userconsole.ctrl.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/Новый текстовый документ.txt" afterPath="$PROJECT_DIR$/controler/Новый текстовый документ.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/model/menu.php" afterPath="$PROJECT_DIR$/model/menu.mod.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/login.ctrl.php" afterPath="$PROJECT_DIR$/controler/login.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/newstemplate.ctrl.php" afterPath="$PROJECT_DIR$/controler/newstemplate.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/registration.ctrl.php" afterPath="$PROJECT_DIR$/controler/registration.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/userconsole.ctrl.php" afterPath="$PROJECT_DIR$/controler/userconsole.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mystyle.css" afterPath="$PROJECT_DIR$/css/mystyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/database.mod.class.php" afterPath="$PROJECT_DIR$/model/database.mod.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/opennews.mod.class.php" afterPath="$PROJECT_DIR$/model/opennews.mod.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sablon/sablon.html" afterPath="$PROJECT_DIR$/sablon/sablon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/loginprocess.class.php" afterPath="$PROJECT_DIR$/view/loginprocess.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/userprocess.mod.class.php" afterPath="$PROJECT_DIR$/view/userprocess.mod.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -710,100 +26,19 @@
       <file leaf-file-name="login.ctrl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controler/login.ctrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opennews.mod.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/opennews.mod.class.php">
+      <file leaf-file-name="loginprocess.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/loginprocess.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="n#viewSmallNews#0;n#viewNews#0;n#!!top" expanded="false" />
-                <element signature="n#viewSmallNewsByCategory#0;n#viewNews#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.ctrl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controler/registration.ctrl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="184">
+              <caret line="47" column="82" lean-forward="false" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="82" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/404.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.mod.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/database.mod.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-              <folding>
-                <element signature="n#__construct#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#deleteUser#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
-                <marker date="1508945263206" expanded="true" signature="1981:2038" ph="UPDATE user " />
-                <marker date="1508945263206" expanded="true" signature="2695:2734" ph="delete from " />
-                <marker date="1508945263206" expanded="true" signature="3371:3495" ph="UPDATE news " />
-                <marker date="1508945263206" expanded="true" signature="4428:4603" ph="INSERT INTO news... " />
-                <marker date="1508945263206" expanded="true" signature="5561:5691" ph="INSERT INTO user... " />
-                <marker date="1508945263206" expanded="true" signature="6576:6689" ph="INSERT INTO user... " />
-                <marker date="1508945263206" expanded="true" signature="7494:7516" ph="SELECT categ... category" />
-                <marker date="1508945263206" expanded="true" signature="8051:8073" ph="SELECT login... user" />
-                <marker date="1508945263206" expanded="true" signature="8834:8927" ph="SELECT user.... user" />
-                <marker date="1508945263206" expanded="true" signature="9566:9760" ph="SELECT title... " />
-                <marker date="1508945263206" expanded="true" signature="10608:10711" ph="select news.... " />
-                <marker date="1508945263206" expanded="true" signature="10608:10739" ph="select comme... comment" />
-                <marker date="1508945263206" expanded="true" signature="11357:11481" ph="select news.... " />
-                <marker date="1508945263206" expanded="true" signature="12089:12270" ph="SELECT news.... " />
-                <marker date="1508945263206" expanded="true" signature="13064:13106" ph="UPDATE news " />
-                <marker date="1508945263206" expanded="true" signature="13688:13730" ph="SELECT * FRO... category" />
-                <marker date="1508945263206" expanded="true" signature="14354:14563" ph="SELECT news.... " />
-                <marker date="1508945263206" expanded="true" signature="14354:14582" ph="SELECT news.... " />
-                <marker date="1508945263206" expanded="true" signature="15206:15394" ph="SELECT news.... " />
-                <marker date="1508945263206" expanded="true" signature="16205:16310" ph="select * fro... user" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -819,11 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>﻿ Connected</find>
-      <find>it</find>
-      <find>it is</find>
-      <find>$_SESSION[&quot;user&quot;]</find>
-      <find>session_unset</find>
       <find>sessio</find>
       <find>Account</find>
       <find>$db</find>
@@ -847,12 +77,18 @@
       <find>sett</find>
       <find>pre</find>
       <find>pre&gt;</find>
-      <find>username</find>
       <find>newTitle</find>
+      <find>add new news</find>
+      <find>echo</find>
+      <find>text-success</find>
+      <find>news_template</find>
+      <find>username</find>
+      <find>newUserLogin</find>
     </findStrings>
     <dirStrings>
       <dir>D:\programming\wamp64\www\cfg</dir>
       <dir>D:\programming\wamp64\www</dir>
+      <dir>D:\programming\wamp64\www\css\sandstone</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -865,7 +101,6 @@
         <option value="$PROJECT_DIR$/cfg/registrationprocess.php" />
         <option value="$PROJECT_DIR$/com/registration.php" />
         <option value="$PROJECT_DIR$/com/home.php" />
-        <option value="$PROJECT_DIR$/css/mystyle.css" />
         <option value="$PROJECT_DIR$/com/category.php" />
         <option value="$PROJECT_DIR$/kiv-web-php/cfg/loginprocess.php" />
         <option value="$PROJECT_DIR$/model/menu.php" />
@@ -883,19 +118,23 @@
         <option value="$PROJECT_DIR$/com/page.php" />
         <option value="$PROJECT_DIR$/cfg/registrationprocess.mod.class.php" />
         <option value="$PROJECT_DIR$/cfg/registrationprocess.registrationprocess.class.php" />
-        <option value="$PROJECT_DIR$/controler/userconsole.ctrl.php" />
-        <option value="$PROJECT_DIR$/controler/newstemplate.ctrl.php" />
         <option value="$PROJECT_DIR$/controler/admin.ctrl.php" />
-        <option value="$PROJECT_DIR$/sablon/sablon.html" />
         <option value="$PROJECT_DIR$/model/menu.mod.class.php" />
-        <option value="$PROJECT_DIR$/view/loginprocess.class.php" />
         <option value="$PROJECT_DIR$/model/phpWrapper.mod.class.php" />
-        <option value="$PROJECT_DIR$/controler/login.ctrl.php" />
         <option value="$PROJECT_DIR$/model/registrationprocess.mod.class.php" />
-        <option value="$PROJECT_DIR$/controler/registration.ctrl.php" />
         <option value="$PROJECT_DIR$/view/404.php" />
-        <option value="$PROJECT_DIR$/model/database.mod.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/controler/registration.ctrl.php" />
+        <option value="$PROJECT_DIR$/view/addnews.mod.class.php" />
+        <option value="$PROJECT_DIR$/controler/newstemplate.ctrl.php" />
+        <option value="$PROJECT_DIR$/controler/login.ctrl.php" />
+        <option value="$PROJECT_DIR$/view/loginprocess.class.php" />
+        <option value="$PROJECT_DIR$/sablon/sablon.html" />
+        <option value="$PROJECT_DIR$/css/mystyle.css" />
+        <option value="$PROJECT_DIR$/model/opennews.mod.class.php" />
+        <option value="$PROJECT_DIR$/view/userprocess.mod.class.php" />
+        <option value="$PROJECT_DIR$/model/database.mod.class.php" />
+        <option value="$PROJECT_DIR$/controler/userconsole.ctrl.php" />
       </list>
     </option>
   </component>
@@ -906,11 +145,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1393" />
-    <option name="y" value="410" />
-    <option name="width" value="1346" />
-    <option name="height" value="635" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -927,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -939,11 +176,6 @@
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controler" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
@@ -960,6 +192,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1026,19 +259,21 @@
       <workItem from="1508774678161" duration="3031000" />
       <workItem from="1508864559989" duration="1241000" />
       <workItem from="1508931274745" duration="7091000" />
+      <workItem from="1509124700923" duration="11297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120244000" />
+    <option name="totallyTimeSpent" value="131541000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1393" y="410" width="1346" height="635" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23759398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12445095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1050,7 +285,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1067,60 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/loginprocess.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/database.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="57" lean-forward="true" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
-          <folding>
-            <element signature="n#__construct#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#deleteUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
-            <marker date="1508945263206" expanded="true" signature="1981:2038" ph="UPDATE user " />
-            <marker date="1508945263206" expanded="true" signature="2695:2734" ph="delete from " />
-            <marker date="1508945263206" expanded="true" signature="3371:3495" ph="UPDATE news " />
-            <marker date="1508945263206" expanded="true" signature="4428:4603" ph="INSERT INTO news... " />
-            <marker date="1508945263206" expanded="true" signature="5561:5691" ph="INSERT INTO user... " />
-            <marker date="1508945263206" expanded="true" signature="6576:6689" ph="INSERT INTO user... " />
-            <marker date="1508945263206" expanded="true" signature="7494:7516" ph="SELECT categ... category" />
-            <marker date="1508945263206" expanded="true" signature="8051:8073" ph="SELECT login... user" />
-            <marker date="1508945263206" expanded="true" signature="8834:8927" ph="SELECT user.... user" />
-            <marker date="1508945263206" expanded="true" signature="9566:9760" ph="SELECT title... " />
-            <marker date="1508945263206" expanded="true" signature="10608:10711" ph="select news.... " />
-            <marker date="1508945263206" expanded="true" signature="10608:10739" ph="select comme... comment" />
-            <marker date="1508945263206" expanded="true" signature="11357:11481" ph="select news.... " />
-            <marker date="1508945263206" expanded="true" signature="12089:12270" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="13064:13106" ph="UPDATE news " />
-            <marker date="1508945263206" expanded="true" signature="13688:13730" ph="SELECT * FRO... category" />
-            <marker date="1508945263206" expanded="true" signature="14354:14563" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="14354:14582" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="15206:15394" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="16205:16310" ph="select * fro... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
@@ -1190,42 +370,53 @@
           <caret line="267" column="39" lean-forward="true" selection-start-line="267" selection-start-column="39" selection-end-line="267" selection-end-column="39" />
           <folding>
             <element signature="n#__construct#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#deleteUser#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
-            <marker date="1508945263206" expanded="true" signature="1981:2038" ph="UPDATE user " />
-            <marker date="1508945263206" expanded="true" signature="2695:2734" ph="delete from " />
-            <marker date="1508945263206" expanded="true" signature="3371:3495" ph="UPDATE news " />
-            <marker date="1508945263206" expanded="true" signature="4428:4603" ph="INSERT INTO news... " />
-            <marker date="1508945263206" expanded="true" signature="5561:5691" ph="INSERT INTO user... " />
-            <marker date="1508945263206" expanded="true" signature="6576:6689" ph="INSERT INTO user... " />
-            <marker date="1508945263206" expanded="true" signature="7494:7516" ph="SELECT categ... category" />
-            <marker date="1508945263206" expanded="true" signature="8051:8073" ph="SELECT login... user" />
-            <marker date="1508945263206" expanded="true" signature="8834:8927" ph="SELECT user.... user" />
-            <marker date="1508945263206" expanded="true" signature="9566:9760" ph="SELECT title... " />
-            <marker date="1508945263206" expanded="true" signature="10608:10711" ph="select news.... " />
-            <marker date="1508945263206" expanded="true" signature="10608:10739" ph="select comme... comment" />
-            <marker date="1508945263206" expanded="true" signature="11357:11481" ph="select news.... " />
-            <marker date="1508945263206" expanded="true" signature="12089:12270" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="13064:13106" ph="UPDATE news " />
-            <marker date="1508945263206" expanded="true" signature="13688:13730" ph="SELECT * FRO... category" />
-            <marker date="1508945263206" expanded="true" signature="14354:14563" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="14354:14582" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="15206:15394" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="16205:16310" ph="select * fro... user" />
+            <marker date="1509215154137" expanded="true" signature="1720:1771" ph="SELECT login... user" />
+            <marker date="1509215154137" expanded="true" signature="2527:2584" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="3256:3313" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="3991:4054" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="5156:5213" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="5870:5909" ph="delete from " />
+            <marker date="1509215154137" expanded="true" signature="6546:6670" ph="UPDATE news " />
+            <marker date="1509215154137" expanded="true" signature="7570:7745" ph="INSERT INTO news... " />
+            <marker date="1509215154137" expanded="true" signature="8703:8833" ph="INSERT INTO user... " />
+            <marker date="1509215154137" expanded="true" signature="9681:9794" ph="INSERT INTO user... " />
+            <marker date="1509215154137" expanded="true" signature="10599:10621" ph="SELECT categ... category" />
+            <marker date="1509215154137" expanded="true" signature="11156:11178" ph="SELECT login... user" />
+            <marker date="1509215154137" expanded="true" signature="11939:12032" ph="SELECT user.... user" />
+            <marker date="1509215154137" expanded="true" signature="12671:12865" ph="SELECT title... " />
+            <marker date="1509215154137" expanded="true" signature="13713:13816" ph="select news.... " />
+            <marker date="1509215154137" expanded="true" signature="13713:13844" ph="select comme... comment" />
+            <marker date="1509215154137" expanded="true" signature="14462:14586" ph="select news.... " />
+            <marker date="1509215154137" expanded="true" signature="15194:15375" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="16169:16211" ph="UPDATE news " />
+            <marker date="1509215154137" expanded="true" signature="16793:16835" ph="SELECT * FRO... category" />
+            <marker date="1509215154137" expanded="true" signature="17459:17668" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="17459:17687" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="18311:18499" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="19306:19461" ph="select user.... user" />
+            <marker date="1509215154137" expanded="true" signature="20336:20491" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1285,42 +476,53 @@
           <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="37" />
           <folding>
             <element signature="n#__construct#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#deleteUser#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
-            <marker date="1508945263206" expanded="true" signature="1981:2038" ph="UPDATE user " />
-            <marker date="1508945263206" expanded="true" signature="2695:2734" ph="delete from " />
-            <marker date="1508945263206" expanded="true" signature="3371:3495" ph="UPDATE news " />
-            <marker date="1508945263206" expanded="true" signature="4428:4603" ph="INSERT INTO news... " />
-            <marker date="1508945263206" expanded="true" signature="5561:5691" ph="INSERT INTO user... " />
-            <marker date="1508945263206" expanded="true" signature="6576:6689" ph="INSERT INTO user... " />
-            <marker date="1508945263206" expanded="true" signature="7494:7516" ph="SELECT categ... category" />
-            <marker date="1508945263206" expanded="true" signature="8051:8073" ph="SELECT login... user" />
-            <marker date="1508945263206" expanded="true" signature="8834:8927" ph="SELECT user.... user" />
-            <marker date="1508945263206" expanded="true" signature="9566:9760" ph="SELECT title... " />
-            <marker date="1508945263206" expanded="true" signature="10608:10711" ph="select news.... " />
-            <marker date="1508945263206" expanded="true" signature="10608:10739" ph="select comme... comment" />
-            <marker date="1508945263206" expanded="true" signature="11357:11481" ph="select news.... " />
-            <marker date="1508945263206" expanded="true" signature="12089:12270" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="13064:13106" ph="UPDATE news " />
-            <marker date="1508945263206" expanded="true" signature="13688:13730" ph="SELECT * FRO... category" />
-            <marker date="1508945263206" expanded="true" signature="14354:14563" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="14354:14582" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="15206:15394" ph="SELECT news.... " />
-            <marker date="1508945263206" expanded="true" signature="16205:16310" ph="select * fro... user" />
+            <marker date="1509215154137" expanded="true" signature="1720:1771" ph="SELECT login... user" />
+            <marker date="1509215154137" expanded="true" signature="2527:2584" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="3256:3313" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="3991:4054" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="5156:5213" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="5870:5909" ph="delete from " />
+            <marker date="1509215154137" expanded="true" signature="6546:6670" ph="UPDATE news " />
+            <marker date="1509215154137" expanded="true" signature="7570:7745" ph="INSERT INTO news... " />
+            <marker date="1509215154137" expanded="true" signature="8703:8833" ph="INSERT INTO user... " />
+            <marker date="1509215154137" expanded="true" signature="9681:9794" ph="INSERT INTO user... " />
+            <marker date="1509215154137" expanded="true" signature="10599:10621" ph="SELECT categ... category" />
+            <marker date="1509215154137" expanded="true" signature="11156:11178" ph="SELECT login... user" />
+            <marker date="1509215154137" expanded="true" signature="11939:12032" ph="SELECT user.... user" />
+            <marker date="1509215154137" expanded="true" signature="12671:12865" ph="SELECT title... " />
+            <marker date="1509215154137" expanded="true" signature="13713:13816" ph="select news.... " />
+            <marker date="1509215154137" expanded="true" signature="13713:13844" ph="select comme... comment" />
+            <marker date="1509215154137" expanded="true" signature="14462:14586" ph="select news.... " />
+            <marker date="1509215154137" expanded="true" signature="15194:15375" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="16169:16211" ph="UPDATE news " />
+            <marker date="1509215154137" expanded="true" signature="16793:16835" ph="SELECT * FRO... category" />
+            <marker date="1509215154137" expanded="true" signature="17459:17668" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="17459:17687" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="18311:18499" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="19306:19461" ph="select user.... user" />
+            <marker date="1509215154137" expanded="true" signature="20336:20491" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1380,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kiv-web-php/model/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1412,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,17 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/addnews.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="n#alertNewsWasAdded#0;n#news#0;n#!!top" expanded="false" />
-            <element signature="n#alertNewsWasEdited#0;n#news#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1443,24 +626,6 @@
             <element signature="e#2236#2661#0#PHP" expanded="false" />
             <element signature="e#2453#2661#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/userprocess.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="n#setUserInfoTemplate#0;n#userprocess#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/userconsole.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,42 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controler/home.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/newstemplate.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/page.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controler/admin.ctrl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sablon/sablon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1544,64 +677,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/loginprocess.class.php">
+    <entry file="file://$PROJECT_DIR$/view/404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/opennews.mod.class.php">
+    <entry file="file://$PROJECT_DIR$/kiv-web-php/model/database.mod.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="158">
+          <caret line="270" column="32" lean-forward="true" selection-start-line="270" selection-start-column="32" selection-end-line="270" selection-end-column="32" />
           <folding>
-            <element signature="n#viewSmallNews#0;n#viewNews#0;n#!!top" expanded="false" />
-            <element signature="n#viewSmallNewsByCategory#0;n#viewNews#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/database.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="n#__construct#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#deleteUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
             <marker date="1508945263206" expanded="true" signature="1981:2038" ph="UPDATE user " />
             <marker date="1508945263206" expanded="true" signature="2695:2734" ph="delete from " />
             <marker date="1508945263206" expanded="true" signature="3371:3495" ph="UPDATE news " />
             <marker date="1508945263206" expanded="true" signature="4428:4603" ph="INSERT INTO news... " />
-            <marker date="1508945263206" expanded="true" signature="5561:5691" ph="INSERT INTO user... " />
+            <marker date="1508945263206" expanded="true" signature="5561:5691" ph="INSERT INTO comment... " />
             <marker date="1508945263206" expanded="true" signature="6576:6689" ph="INSERT INTO user... " />
-            <marker date="1508945263206" expanded="true" signature="7494:7516" ph="SELECT categ... category" />
+            <marker date="1508945263206" expanded="true" signature="7494:7516" ph="SELECT * FRO... category" />
             <marker date="1508945263206" expanded="true" signature="8051:8073" ph="SELECT login... user" />
             <marker date="1508945263206" expanded="true" signature="8834:8927" ph="SELECT user.... user" />
-            <marker date="1508945263206" expanded="true" signature="9566:9760" ph="SELECT title... " />
-            <marker date="1508945263206" expanded="true" signature="10608:10711" ph="select news.... " />
+            <marker date="1508945263206" expanded="true" signature="9566:9760" ph="SELECT news.... " />
             <marker date="1508945263206" expanded="true" signature="10608:10739" ph="select comme... comment" />
             <marker date="1508945263206" expanded="true" signature="11357:11481" ph="select news.... " />
             <marker date="1508945263206" expanded="true" signature="12089:12270" ph="SELECT news.... " />
             <marker date="1508945263206" expanded="true" signature="13064:13106" ph="UPDATE news " />
             <marker date="1508945263206" expanded="true" signature="13688:13730" ph="SELECT * FRO... category" />
-            <marker date="1508945263206" expanded="true" signature="14354:14563" ph="SELECT news.... " />
             <marker date="1508945263206" expanded="true" signature="14354:14582" ph="SELECT news.... " />
             <marker date="1508945263206" expanded="true" signature="15206:15394" ph="SELECT news.... " />
             <marker date="1508945263206" expanded="true" signature="16205:16310" ph="select * fro... user" />
@@ -1609,34 +712,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/404.php">
+    <entry file="file://$PROJECT_DIR$/controler/page.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sandstone/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4519">
+          <caret line="1310" column="5" lean-forward="true" selection-start-line="1310" selection-start-column="5" selection-end-line="1310" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sablon/sablon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controler/registration.ctrl.php">
+    <entry file="file://$PROJECT_DIR$/css/mystyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/login.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="476">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/opennews.mod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <folding>
+            <element signature="n#viewSmallNews#0;n#viewNews#0;n#!!top" expanded="false" />
+            <element signature="n#viewSmallNewsByCategory#0;n#viewNews#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/newstemplate.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/addnews.mod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="66" column="81" lean-forward="false" selection-start-line="66" selection-start-column="74" selection-end-line="66" selection-end-column="81" />
+          <folding>
+            <element signature="n#alertNewsWasAdded#0;n#news#0;n#!!top" expanded="false" />
+            <element signature="n#alertNewsWasEdited#0;n#news#0;n#!!top" expanded="false" />
+            <element signature="n#setNews#0;n#news#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/home.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/registration.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/login.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/database.mod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="565" column="29" lean-forward="false" selection-start-line="565" selection-start-column="29" selection-end-line="565" selection-end-column="29" />
+          <folding>
+            <element signature="n#__construct#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#deleteUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
+            <marker date="1509215154137" expanded="true" signature="1720:1771" ph="SELECT login... user" />
+            <marker date="1509215154137" expanded="true" signature="2527:2584" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="3256:3313" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="3991:4054" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="5156:5213" ph="UPDATE user " />
+            <marker date="1509215154137" expanded="true" signature="5870:5909" ph="delete from " />
+            <marker date="1509215154137" expanded="true" signature="6546:6670" ph="UPDATE news " />
+            <marker date="1509215154137" expanded="true" signature="7570:7745" ph="INSERT INTO news... " />
+            <marker date="1509215154137" expanded="true" signature="8703:8833" ph="INSERT INTO user... " />
+            <marker date="1509215154137" expanded="true" signature="9681:9794" ph="INSERT INTO user... " />
+            <marker date="1509215154137" expanded="true" signature="10599:10621" ph="SELECT categ... category" />
+            <marker date="1509215154137" expanded="true" signature="11156:11178" ph="SELECT login... user" />
+            <marker date="1509215154137" expanded="true" signature="11939:12032" ph="SELECT user.... user" />
+            <marker date="1509215154137" expanded="true" signature="12671:12865" ph="SELECT title... " />
+            <marker date="1509215154137" expanded="true" signature="13713:13816" ph="select news.... " />
+            <marker date="1509215154137" expanded="true" signature="13713:13844" ph="select comme... comment" />
+            <marker date="1509215154137" expanded="true" signature="14462:14586" ph="select news.... " />
+            <marker date="1509215154137" expanded="true" signature="15194:15375" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="16169:16211" ph="UPDATE news " />
+            <marker date="1509215154137" expanded="true" signature="16793:16835" ph="SELECT * FRO... category" />
+            <marker date="1509215154137" expanded="true" signature="17459:17668" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="17459:17687" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="18311:18499" ph="SELECT news.... " />
+            <marker date="1509215154137" expanded="true" signature="19306:19461" ph="select user.... user" />
+            <marker date="1509215154137" expanded="true" signature="20336:20491" ph="select * fro... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/userconsole.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/userprocess.mod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="125" column="113" lean-forward="false" selection-start-line="125" selection-start-column="101" selection-end-line="125" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/loginprocess.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="47" column="82" lean-forward="false" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="82" />
           <folding />
         </state>
       </provider>

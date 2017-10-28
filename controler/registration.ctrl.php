@@ -12,10 +12,14 @@ $action = @$_REQUEST["action"];
 if($action == "registration"){
 
     if($_REQUEST['pswNewUser'] != $_REQUEST['pswNewUser-repeat']){
-        echo "this password is not correct";
+        ?>
+        <div class="alert alert-danger">
+            <strong>Password incorrectly repeated</strong>
+        </div>
+        <?php
+
     }else{
         $loginNewUser = $_REQUEST['loginNewUser'];
-        echo "password is good";
 
         if($db->controlNewLogin($loginNewUser)){
             $emailNewUser = $_REQUEST['emailNewUser'];
@@ -34,9 +38,9 @@ if($action == "registration"){
     }
 }
 
-//if(!isset($_SESSION["user"])){
+if(!isset($_SESSION["user"])){
     $registration->getFormRegistration();
-//}
+}
 
 $db->close();
 unset($db);

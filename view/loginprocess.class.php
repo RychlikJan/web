@@ -8,7 +8,8 @@
 	   }
        
         function infoUser(){
-            ?>
+           if($_SESSION["user"]["type_id"] !=  1){
+           ?>
             <div class="jumbotron">
                 <h1>Hi!</h1>
                 <p>Now, now you are new user. You can see your account
@@ -16,6 +17,14 @@
             </div>
 
             <?php
+           }else{
+               ?>
+               <div class="jumbotron">
+                   <h1>Hi admin!</h1>
+               </div>
+
+               <?php
+           }
         }
         
         function logIn($alert){
