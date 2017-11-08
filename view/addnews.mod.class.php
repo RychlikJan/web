@@ -46,7 +46,10 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="textArea" class="control-label">Text</label>
-                                    <textarea class="form-control" rows="10" name="newText" id="textArea"></textarea>
+                                    <textarea  class="form-control"  name="newText" id="textArea"></textarea>
+                                    <script>
+                                        CKEDITOR.replace( 'newText' );
+                                    </script>
                                     <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
                                 </div>
                                 <div class="form-group">
@@ -97,7 +100,10 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="textArea" class="control-label">Text</label>
-                                    <textarea class="form-control" rows="10" name="newText" id="textArea"><?php echo $news["note"] ?></textarea>
+                                    <textarea  class="form-control"  name="newText" id="textArea"><?php echo $news["note"] ?></textarea>
+                                    <script>
+                                        CKEDITOR.replace( 'newText' );
+                                    </script>
                                     <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
                                 </div>
                                 <div class="form-group">
