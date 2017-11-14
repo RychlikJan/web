@@ -14,7 +14,66 @@ class admin{
         @session_start();
     }
 
-    function getAdminTables($category, $news, $users){
+    function selection_users_for_review($news_id, $author_login, $users, $news_review){
+
+
+
+        ?>
+        <table class="table table-striped table-hover ">
+            <thead>
+            <tr>
+                <th>User ID</th>
+                <th>User login</th>
+                <th>Select</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($users as $item){
+                if($author_login != $item['login']){
+                    $can_confirm = true;
+                    $result = "no result";
+                }else{
+                    $can_confirm = false;
+                    $result = "it`s author";
+
+                }
+                               ?> >
+                    <td><?php echo $item['id'] ?></td>
+                    <td><?php echo $item['login']   ?></td>
+                    <td>
+                        <?php foreach ($news_review as $review){
+                            if($review['user_id']==$item['id']){
+                                $can_confirm=false;
+                                if($review['actualite'] != null && $review['style'] && $review['quality']){
+                                    $result = ($review['actualite']+$review['style']+$review['quality'])/3;
+                                }
+                            }
+                        }
+                        if($can_confirm){
+                ?>
+                        <form method="post" class="table_content_form">
+
+                                <button type="submit"  class="btn btn-success btn-xs"
+                                        name="review_news" data-toggle="modal" data-target="#modalConfirm<?php echo $item['id'] ?>" >Confirm</button>
+                            <input type="hidden" name="user_id" value="<?php echo $item['id'] ?>"/>
+                            <input type="hidden" name="news_id" value="<?php echo $news_id ?>"/>
+
+                        </form>
+                            <?php }else{
+                            echo $result;
+                        } ?>
+
+                    </td>
+                </tr>
+            <?php }?>
+            </tbody>
+        </table>
+
+
+        <?php
+    }
+
+    function getAdminTables($category, $news, $users, $news_review){
         $cat = $category;
 
         $count_new_users = 0;
@@ -119,16 +178,34 @@ class admin{
                         <th>Title</th>
                         <th>Category</th>
                         <th>Publish</th>
+                        <th>Rating</th>
                     </tr>
                     </thead>
                     <tbody>
                     <?php foreach ($news as $item){
+                        $count_users = 0;
+                        $rating = 0;
+                        $count_users_for_rating = 0;
+                        foreach ($news_review as $review){
+                            if($review['news_id']==$item['id']){
+                                $count_users++;
+                                if($review['actualite'] != null && $review['style'] && $review['quality']){
+                                    $rating += ($review['actualite']+$review['style']+$review['quality'])/3;
+                                    $count_users_for_rating++;
+                                }
+                            }
+                        }
+                        if($count_users_for_rating > 0){
+                            $rating = $rating/$count_users_for_rating;
+                        }
                         $date=date_create($item['date']);
 
                         ?>
                         <tr <?php $publiting = "";
+                        $add_user = false;
                         if($item['public']==0){
                             $publiting = "Accept";
+                            $add_user = true;
                            ?>
                             class = "success";
                             <?php
@@ -139,19 +216,35 @@ class admin{
                             <td><?php echo $item['id'] ?></td>
                             <td><em><?php echo  date_format($date, 'd-m-Y') ?></em></td>
                             <td><?php echo $item['login'] ?></td>
-                            <td><a href='index.php?page=page&&newsid=<?php echo $item['id']?>' action="open_news"><?php echo $item['title'] ?></a></td>
+                            <td>
+                                <a href='index.php?page=page&&newsid=<?php echo $item['id']?>' action="open_news">
+                                    <?php echo $item['title'] ?></a>
+                            </td>
                             <td><?php echo $item['category_name'] ?></td>
 <!--                            <input type="hidden" name="action" value="publish">-->
                             <td>
-                                <?php
-                                if($item['public']==1){
-                                    echo $publiting;
-                                }else{?>
                                     <form method="post" class="table_content_form">
-                                        <button type="submit"  class="btn btn-success btn-xs" name="publish_news"><?php echo $publiting ; ?> </button>
+                                        <?php if($add_user){
+                                            ?>
+                                            <button type="submit"  class="btn btn-primary btn-xs" name="add_users_for_review">select</button>
+                                            <input type="hidden" name="news_id" value="<?php echo $item['id'] ?>"/>
+                                            <button type="submit"  class="btn btn-success btn-xs" name="publish_news">Accept</button>
+                                            <input type="hidden" name="news_id" value="<?php echo $item['id'] ?>"/>
+                                            <?php
+                                        }else{
+                                            ?>
+                                            <button type="button" class="btn btn-success btn-xs disabled">Is publish</button>
+                                            <?php
+                                        }
+                                        ?>
+                                        <button type="submit"  class="btn btn-danger btn-xs" name="delete_news">delete </button>
                                         <input type="hidden" name="news_id" value="<?php echo $item['id'] ?>"/>
+                                        <input type="hidden" name="author_login" value="<?php echo $item['login'] ?>"/>
+
                                     </form>
-                                    <?php }?>
+                            </td>
+                            <td>
+                                <?php echo $rating?> ( <?php echo $count_users_for_rating?> votes from <?php echo $count_users?>)
                             </td>
                         </tr>
                     <?php }?>
@@ -192,13 +285,24 @@ class admin{
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
+                        <h4 class="modal-title">Adding new category</h4>
                     </div>
                     <div class="modal-body">
-                        <p>This is a large modal.</p>
+                        <div class="form-group has-success">
+                            <form  action="" method="post" class="form-horizontal">
+                                <label class="form-control-label" for="inputSuccess1">Name new category</label>
+                                <input type="text" class="form-control is-valid" id="inputValid" name="name_new_category">
+                            <br/>
+                                <label class="form-control-label" for="inputSuccess1">Image url</label>
+                                <input type="text" class="form-control is-valid" id="inputValid" name="url_img_category">
+                            </form>
+                        </div>
+
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <form method="post" class="table_content_form">
+                            <button type="submit"  class="btn btn-success" name="add_new_category">Add</button>
+                        </form>
                     </div>
                 </div>
             </div>

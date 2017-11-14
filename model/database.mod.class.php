@@ -12,7 +12,7 @@ $pages[0] = 'controler/home.ctrl.php';
 $pages[1] = 'controler/category.ctrl.php';
 $pages[2] = 'controler/login.ctrl.php';
 $pages[3] = 'controler/registration.ctrl.php';
-$pages[4] = 'controler/contact.php';
+$pages[4] = 'view/contact.php';
 $pages[5] = 'controler/userconsole.ctrl.php';
 $pages[6] = 'controler/admin.ctrl.php';
 $pages[7] ='controler/newstemplate.ctrl.php';
@@ -40,7 +40,8 @@ class MyDB{
             die();
         }
     }
-    
+
+
     function loginUserInDataBaze($userLogin, $userPassword){
         if($this->controlLoginAndPassword($userLogin, $userPassword)){
             $_SESSION["user"] = $this->getAllInfoUsers($userLogin);
@@ -179,6 +180,27 @@ class MyDB{
         }
     }
 
+    function deleteNews($id_news){
+        $mysql_pdo_error = false;
+        $query = 'delete from news where news.id=:id_news;';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':id_news', $id_news, PDO::PARAM_INT);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+
+    }
+
     function deleteUser($id_user){
         $mysql_pdo_error = false;
         $query = 'delete from user where user.id=:id_user;';
@@ -222,6 +244,74 @@ class MyDB{
             print_r($errors);
             echo "SQL : $query";
         }
+    }
+
+    function getAllNewsReview(){
+        $mysql_pdo_error = false;
+        $query = "select * from review_news";
+
+        $sth = $this->conn->prepare($query);
+        $sth->execute();
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            $all = $sth->fetchAll(PDO::FETCH_ASSOC);
+            return $all;
+        }
+        else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+
+    }
+
+    function getNewsReviewByNewsId($idNews){
+        $mysql_pdo_error = false;
+        $query = "select * from review_news where news_id=:newsid";
+
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':newsid', $idNews, PDO::PARAM_INT);
+        $sth->execute();
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            $all = $sth->fetchAll(PDO::FETCH_ASSOC);
+            return $all;
+        }
+        else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+
+    }
+
+    function add_news_review_to_user($news_id, $user_id){
+        $mysql_pdo_error = false;
+        $query = 'INSERT INTO review_news (news_id, user_id)
+            VALUES (:news_id, :user_id );';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':user_id', $user_id, PDO::PARAM_INT);
+        $sth->bindValue(':news_id', $news_id, PDO::PARAM_INT);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+
     }
 
     function addNewNews( $title, $text, $user_id, $category_id, $imageNews){

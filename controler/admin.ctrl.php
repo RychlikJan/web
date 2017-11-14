@@ -20,6 +20,13 @@ if(isset($_POST["publish_news"])){
 
     }
 }
+if(isset($_POST["delete_news"])){
+    $news_id = $_POST['news_id'];
+    if($db->deleteNews($news_id)){
+
+    }
+
+}
 if(isset($_POST["confirm"]) || isset($_POST["unblock"])){
     $user_id=$_POST["user_id"];
     if($db->setTypeUser($user_id, 2)){
@@ -38,10 +45,35 @@ if(isset($_POST["delete"])){
 
     }
 }
+if(isset($_POST["review_news"])){
+    $news_id = $_POST['news_id'];
+    $users = $_POST['user_id'];
+        if(!($db->add_news_review_to_user($news_id, $users))){
+            ?>
+            <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+            </div>
+            <?php
+        }
+}
+if(isset($_POST["add_new_category"])){
+    echo "Add new category!!!";
+    $name_new_category = $_REQUEST['name_new_category'];
+    $url_img = $_REQUEST["url_img_category"];
+}
+
 $news = $db->getInfoAboutNews();
 $users = $db->getAllUsers();
+$news_review = $db->getAllNewsReview();
+if(isset($_POST["add_users_for_review"])){
+    $news_id = $_POST['news_id'];
+    $author_login = $_POST['author_login'];
+    $administration->selection_users_for_review($news_id, $author_login, $users, $db->getNewsReviewByNewsId($news_id));
+}else{
+    $administration->getAdminTables($_SESSION["menu"], $news, $users, $news_review);
+}
 
-$administration->getAdminTables($_SESSION["menu"], $news, $users);
 
 
 

@@ -16,14 +16,15 @@
             ?>
             <div class="col-lg-12">
                 <div class="row">
-                    <div col-lg-6>
-                        <img src="<?php echo $news['image_news_url'] ?>" height="60%" width="60%">
+                    <div col-lg-10>
+                        <img src="<?php echo $news['image_news_url'] ?>" height="60%" width="60%" style="padding-bottom: 20px;">
                     </div>
                     <div col-lg-6>
                         <?php
                         if(isset($_SESSION["user"])){
                             if($_SESSION["user"]["type_id"] == 1  && $news["public"] == 0){
                                 ?>
+
                                 <form method="post" class="table_content_form">
                                     <button type="submit"  class="btn btn-success btn-lg" name="publish_news"> PUBLISH </button>
                                     <input type="hidden" name="news_id" value="<?php echo $news['id'] ?>"/>
@@ -77,16 +78,24 @@
             }
 
             foreach ($comment as $item){
+                $date_comment = date_create($item["date_comment"]);
+
                 ?>
-                <div class="comment_item">
+            <div class="row">
+
+<!--                <div class="comment_item">-->
+                   <div class="col-lg-8">
+
                     <div class="comment_head">
-                        <?php echo $item["date_comment"]?>
-                        <?php echo $item["login"]?>
+                        <span class="text-muted"><?php echo date_format($date_comment, 'd.m.Y H:i')?></span>
+                        <span  class="text-success"><?php echo $item["login"]?></span>
                     </div>
-                    <div class="comment_message">
-                        <p><?php echo $item["comment"]?></p>
+                    <div class="comment-message">
+                        <?php echo $item["comment"]?>
                     </div>
-                </div>
+                   </div>
+<!--                </div>-->
+            </div>
 
                 <?php
             }
@@ -119,7 +128,7 @@
                         </div>
                         <div class="POST">
                             <figure class="tmblr-full">
-                                <img src="<?php echo $news['image_news_url'] ?>" alt="image" width="500" height="303">
+                                    <img src="<?php echo $news['image_news_url'] ?>" alt="image" style="width: 500px; height:300px;">
                                 <br>
                             </figure>
                         </div>
