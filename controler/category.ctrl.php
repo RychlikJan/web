@@ -8,6 +8,7 @@
     $category = $db ->getCategoryById($cat);
     $array_news = $db->getNewsByCategoryId($cat);
     $home->viewSmallNewsByCategory($category, $array_news);
-
+    $db->close();
+    unset($db);
 
 ?>

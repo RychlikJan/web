@@ -6,5 +6,6 @@ include_once("/model/opennews.mod.class.php");
     $db = new MyDB();
     $home = new viewNews();
     $home->viewSmallNews($db->getNewsWithCountComment());
-
+    $db->close();
+    unset($db);
 ?>

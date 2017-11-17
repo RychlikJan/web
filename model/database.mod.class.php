@@ -1,12 +1,6 @@
 <?php defined('INDEX') OR die('Прямой доступ к странице запрещён!');
 
-global $dbhost, $dblogin, $dbpass, $db;
 global $pages;
-global $actualpage;
-global $webUser;
-
-$webUser[0] = 0;//type
-$webUser[1] = ''; //name
 
 $pages[0] = 'controler/home.ctrl.php';
 $pages[1] = 'controler/category.ctrl.php';
@@ -182,7 +176,9 @@ class MyDB{
 
     function deleteNews($id_news){
         $mysql_pdo_error = false;
-        $query = 'delete from news where news.id=:id_news;';
+        $query = 'delete from news where news.id=:id_news;
+                  DELETE FROM  review_news where review_news.news_id=:id_news;
+                  DELETE FROM comment where comment.news_id=:id_news;';
         $sth = $this->conn->prepare($query);
         $sth->bindValue(':id_news', $id_news, PDO::PARAM_INT);
         $sth->execute();//insert to db
@@ -246,6 +242,29 @@ class MyDB{
         }
     }
 
+    function getAllNewsReviewByUserId($user_id){
+        $mysql_pdo_error = false;
+        $query = "SELECT news.id, review_news.id_review_news as review_news_id, news.title, review_news.actualite, review_news.quality, review_news.style 
+FROM news, review_news where review_news.user_id=:userid and review_news.news_id=news.id and news.public=0;";
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':userid', $user_id, PDO::PARAM_INT);
+        $sth->execute();
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            $all = $sth->fetchAll(PDO::FETCH_ASSOC);
+            return $all;
+        }
+        else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+
+    }
+
     function getAllNewsReview(){
         $mysql_pdo_error = false;
         $query = "select * from review_news";
@@ -288,6 +307,32 @@ class MyDB{
             print_r($errors);
             echo "SQL : $query";
         }
+
+    }
+
+    function addResultUserReview($news_review_id, $quality, $style, $actuality){
+        $mysql_pdo_error = false;
+        $query = 'UPDATE review_news SET quality=:quality_result, style=:style_result, actualite=:actuality_result 
+WHERE review_news.id_review_news=:news_review_id';
+        $sth = $this->conn->prepare($query);
+        $sth->bindValue(':quality_result', $quality, PDO::PARAM_INT);
+        $sth->bindValue(':style_result', $style, PDO::PARAM_INT);
+        $sth->bindValue(':actuality_result', $actuality, PDO::PARAM_INT);
+        $sth->bindValue(':news_review_id', $news_review_id, PDO::PARAM_INT);
+        $sth->execute();//insert to db
+        $errors = $sth->errorInfo();
+        if ($errors[0] + 0 > 0){
+            $mysql_pdo_error = true;
+        }
+        if ($mysql_pdo_error == false){
+            //all is ok
+            return true;
+        }else{
+            echo "Eror - PDOStatement::errorInfo(): ";
+            print_r($errors);
+            echo "SQL : $query";
+        }
+
 
     }
 
@@ -390,7 +435,8 @@ class MyDB{
 
     function getAllCategory(){
         $mysql_pdo_error = false;
-        $query = "SELECT * FROM category;";
+        $query = "SELECT count(news.id) AS count_news, category.id, category.category_name, category.image_url 
+FROM news, category WHERE  news.category_id = category.id GROUP BY category_id ORDER BY count_news DESC;";
         $sth = $this->conn->prepare($query);
         $sth->execute();
         $errors = $sth->errorInfo();

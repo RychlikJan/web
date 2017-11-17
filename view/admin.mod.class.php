@@ -86,6 +86,12 @@ class admin{
             if($item['public']==0) $count_dont_publish_news++;
         }
         ?>
+        <div class="jumbotron">
+            <h1 class="display-3">Hi, admin!</h1>
+            <p> Your account setting is <a href="index.php?page=userconsole">here</a></p>
+            <br/>
+        </div>
+
         <div>
         <ul class="nav nav-tabs">
             <li class="active"><a href="#userstable" data-toggle="tab" aria-expanded="true">User
@@ -178,7 +184,7 @@ class admin{
                         <th>Title</th>
                         <th>Category</th>
                         <th>Publish</th>
-                        <th>Rating</th>
+                        <th>Rating (already voted / total)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -214,15 +220,15 @@ class admin{
                         }
                         ?> >
                             <td><?php echo $item['id'] ?></td>
-                            <td><em><?php echo  date_format($date, 'd-m-Y') ?></em></td>
+                            <td><em><?php echo  date_format($date, 'd.m.Y') ?></em></td>
                             <td><?php echo $item['login'] ?></td>
                             <td>
                                 <a href='index.php?page=page&&newsid=<?php echo $item['id']?>' action="open_news">
                                     <?php echo $item['title'] ?></a>
                             </td>
                             <td><?php echo $item['category_name'] ?></td>
-<!--                            <input type="hidden" name="action" value="publish">-->
                             <td>
+                                <div style="display: inline-block;">
                                     <form method="post" class="table_content_form">
                                         <?php if($add_user){
                                             ?>
@@ -242,9 +248,10 @@ class admin{
                                         <input type="hidden" name="author_login" value="<?php echo $item['login'] ?>"/>
 
                                     </form>
+                                </div>
                             </td>
                             <td>
-                                <?php echo $rating?> ( <?php echo $count_users_for_rating?> votes from <?php echo $count_users?>)
+                                <?php echo $rating?>(<?php echo $count_users_for_rating?>/<?php echo $count_users?>)
                             </td>
                         </tr>
                     <?php }?>
@@ -268,7 +275,7 @@ class admin{
                     <tr>
                         <td><?php echo $category['id'] ?></td>
                         <td><?php echo $category['category_name'] ?></td>
-                        <td>Column content</td>
+                        <td><?php echo $category['count_news']?></td>
                         <td><?php echo $category['image_url'] ?></td>
                     </tr>
                     <?php }?>

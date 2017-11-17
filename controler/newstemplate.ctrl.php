@@ -43,7 +43,9 @@ if($action == "addnews"){
 }else{
     $news->setNews($db->getOneNewsWithArrayComment($idNews),$db->getAllCategory());
 }
-
+$db->close();
+unset($db);
+unset($news);
 
 ?>
 

@@ -31,4 +31,8 @@ if(isset($_POST["post_comment"])){
 $idNews = @$_REQUEST["newsid"];
 $home->getNewsTemplate($db->getOneNewsWithArrayComment($idNews), $db->getAllCommentByNewsId($idNews));
 
+
+$db->close();
+unset($db);
+unset($home);
 ?>
