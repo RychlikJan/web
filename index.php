@@ -51,7 +51,7 @@ $title = $menu->namepage($page);
     // render vrati data pro vypis nebo display je vypise
     // v poli jsou data pro vlozeni do sablony
     $template_params = array();
-    $template_params["menu"] = $getMenu;
+//    $template_params["menu"] = $getMenu;
     $template_params["content"] = $content;
     $template_params["title"] = $title;
     echo $template->render($template_params);

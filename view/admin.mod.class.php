@@ -14,6 +14,13 @@ class admin{
         @session_start();
     }
 
+    /***
+     * vrati tabulu pro pridani uzivatelem na hodnoceni prispevek
+     * @param $news_id
+     * @param $author_login
+     * @param $users
+     * @param $news_review
+     */
     function selection_users_for_review($news_id, $author_login, $users, $news_review){
 
 
@@ -73,6 +80,13 @@ class admin{
         <?php
     }
 
+    /***
+     * vrati controlni panel pro administratora
+     * @param $category
+     * @param $news
+     * @param $users
+     * @param $news_review
+     */
     function getAdminTables($category, $news, $users, $news_review){
         $cat = $category;
 

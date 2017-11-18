@@ -13,6 +13,11 @@ class userprocess{
         @session_start();
     }
 
+    /****
+     * template s uzivatelskymi data
+     * @param $newsByUser
+     * @param $news_review
+     */
     function getUserMainInfo($newsByUser, $news_review)
     {
         $type = "";
@@ -212,8 +217,9 @@ class userprocess{
     }
 
 
-
-
+    /***
+     * forma pro zmenu uzivatelem date
+     */
     function setUserInfoTemplate(){
 
         ?>

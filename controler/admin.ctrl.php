@@ -8,7 +8,7 @@
 include_once("/model/database.mod.class.php");
 include_once("/view/admin.mod.class.php");
 
-
+//osetreni je-li uzivatel typu admin
 if(@$_SESSION["user"]["type_id"] == 1){
     $administration = new admin();
     $db = new MyDB();
@@ -82,6 +82,7 @@ if(@$_SESSION["user"]["type_id"] == 1){
     unset($administration);
 
 }else{
+    // je-li uzivatel jineho typu, aplikace ho vrati na hlavni stranku
     header('Location: http://localhost/index.php?page=home');
 }
 
