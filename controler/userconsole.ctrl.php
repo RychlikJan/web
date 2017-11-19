@@ -104,9 +104,12 @@ if(isset($_POST["save_chose"])){
 }
 
 //template accounta uzivatele
-if($allIsOk){
+if($allIsOk && isset($_SESSION["user"])){
     $id_user = $_SESSION["user"]["id"];
     $userInfo ->getUserMainInfo($db->getNewsByUserId($id_user), $db->getAllNewsReviewByUserId($id_user));
+}else{
+    header('Location: http://localhost/index.php?page=404');
+
 }
 
 
