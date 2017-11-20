@@ -91,6 +91,14 @@ if($action == "edit_user_info"){
     }
 }
 
+if(isset($_POST["delete_news"])){
+    $news_id = $_POST['news_id'];
+    if($db->deleteNews($news_id)){
+
+    }
+
+}
+
 /// hodnoceni uzivatelem prispevku
 if(isset($_POST["save_chose"])){
     $news_id = $_REQUEST["news_id"];

@@ -23,8 +23,42 @@ if($id_user){
         $newText = $_REQUEST['newText'];
         $category = $_REQUEST['selectCategory'];
         $imageNews = $_REQUEST['imageNews'];
+
+        $target_dir = "uploads/";
+        $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+        $uploadOk = 1;
+        $result = "something";
+        if(!empty($_FILES["fileToUpload"])){
+            $fileToUpdate = $_FILES["fileToUpload"];
+            if($fileToUpdate["error"]!== UPLOAD_ERR_OK){
+                echo "<p>An error occurred.</p>";
+            }
+        }else{
+            $result = "nothing";
+        }
+        $name = preg_replace("/[^A-Z0-9._-]/i", "_", $fileToUpdate["name"]);
+
+        // don't overwrite an existing file
+        $i = 0;
+        $parts = pathinfo($name);
+        while (file_exists($target_dir . $name)) {
+            $i++;
+            $name = $parts["filename"] . "-" . $i . "." . $parts["extension"];
+        }
+
+        // preserve file from temporary directory
+        $success = move_uploaded_file($fileToUpdate["tmp_name"],
+            $target_dir . $name);
+        if (!$success) {
+            echo "<p>Unable to save file.</p>";
+            exit;
+        }
+
+        // set proper permissions on the new file
+        chmod($target_dir . $name, 0644);
+
 //            echo '<pre>', print_r($_SESSION["user"], true), '</pre>';
-        if($db->addNewNews($newTitle, $newText, $user_id, $category, $imageNews)){
+        if($db->addNewNews($newTitle, $newText, $user_id, $category, $imageNews, $name)){
             $news->alertNewsWasAdded();
         }else{
             ?>
@@ -40,6 +74,9 @@ if($id_user){
         $newText = $_REQUEST['newText'];
         $category = $_REQUEST['selectCategory'];
         $imageNews = $_REQUEST['imageNews'];
+
+
+
 
         if($db->setNews($idNews, $newTitle, $newText, $category, $imageNews)){
             $news->alertNewsWasEdited();
