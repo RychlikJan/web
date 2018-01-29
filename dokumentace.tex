@@ -1,0 +1,187 @@
+
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[IL2]{fontenc}
+\usepackage{listings}
+\usepackage{graphicx}
+
+\begin{document}
+\begin{titlepage} 
+\begin{figure}[!ht] %ht?? 
+\includegraphics[width=.4\textwidth]{logo.png}
+\label{fig: sez} %odkaz
+\end{figure}
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 	
+	\center 
+	\textsc{\Large KIV/WEB}\\[0.5cm] 
+	\HRule\\[0.4cm]
+	
+	{\huge\bfseries Semestrální práce, Webová konference}\\[0.4cm]
+	
+	\HRule\\[1.5cm]
+	{\large\textit{Autor}}\\
+	 \textsc{Jan Rychlík, A16B0125,rychlikj@students.zcu.cz} 
+	\vfill\vfill\vfill 
+	{\large\today} 
+	\vfill 
+	
+\end{titlepage}
+\tableofcontents
+\chapter{Zadání}
+\section{Popis zadání}
+Standartním zadáním semestrální práce z WEBu bylo vytvořit webové stránky na námi zvolené téma. 
+\section{Popis činosti webových stránek}
+\begin{itemize}
+\item Uživateli systému budou autoři příspěvků (vkládají abstrakty a PDF dokumenty), recenzenti příspěvků (hodnotí příspěvky) a administrátoři (spravují uživatele, přiřazují příspěvky recenzentům a rozhodují o publikování příspěvků). Každý uživatel se bude do systému přihlašovat prostřednictvím uživatelského jména a hesla. 
+\item Nepřihlášený uživatel vidí pouze publikované příspěvky.
+\item Nový uživatel se bude moci zaregistrovat, čímž získá status autora.
+\item Přihlášený autor vidí svoje příspěvky a stav, ve kterém se nacházejí (v recenzním řízení / přijat +hodnocení / odmítnut +hodnocení). Příspěvky může přidávat, editovat a volitelně i mazat.
+\item Přihlášený recenzent vidí příspěvky, které mu byly přiděleny k recenzi, a může je hodnotit (alespoň 3 kritéria). Pokud příspěvek nebyl dosud schválen, tak své hodnocení může změnit.
+\item Administrátor spravuje uživatele (určuje jejich role a může uživatele zablokovat či smazat), přiřazuje neschválené příspěvky recenzentům k ohodnocení (každý příspěvek bude recenzován minimálně třemi recenzenty) a na základě recenzí rozhoduje o přijetí nebo odmítnutí příspěvku. Přijaté příspěvky jsou automaticky publikovány ve veřejné části webu.
+\item Databáze musí obsahovat alespoň 3 tabulky dostatečně naplněné daty pro předvedení funkčnosti aplikace.
+\end{itemize}
+\section{Nutné požadavky semestrální práce}
+\begin{itemize}
+\item  Práce musí být osobně předvedena cvičícímu a po schválení odevzdána na CourseWare či Portál.
+\item  K práci musí být dodána dokumentace (viz dále) a skripty pro instalaci databáze (např. získané exportem databáze).
+\item   Web musí dodržovat MVC architekturu.
+\item    Pro práci s databází musí být využito PDO nebo jeho ekvivalent a používány předpřipravené dotazy (prepared statements).
+\item    Web musí obsahovat responzivní design.
+\item    Web musí obsahovat ošetření proti základním typům útoku (XSS, SQL injection).
+\item    Web musí fungovat i s "ošklivými" URL adresami.
+\item    Aplikaci není možné realizovat s využitím PHP frameworků (zakázáno např. Nette, Symfony atd.).
+\item    Front-end je vhodné realizovat s využitím frameworku Bootstrap (getbootstrap.com).
+\end{itemize}
+
+\chapter{Popis použitých tehnologií}
+Základem semestrální práce je struktura MVC. Použité technologe webu jsou: HTML, CSS, PHP,Twig, JavaScript a MySQL. Bootstrap byl použit pro responzivní vzhled strákny a rozmístění prvků na stránce.
+
+\section{HTML}
+\textbf{HTML5} - vzhled stránky, složka view.
+
+\section{CSS}
+\textbf{CSS3} - prace s HTML, pouze ve složce css.
+
+\section{PHP}
+\textbf{PHP} - ve složce models užito pro komunikaci s databazí, ve složce controllers na testování vstupů a dokumentace v kódu.
+
+\section{MySQL}
+\textbf{MySQL}- vytvoření databáze.
+
+\section{Twig}
+\textbf{Twig} - složka sablon, sablon.html (obsahuje odkazy na používané technologie).
+
+\section{JavaScript}
+\textbf{JavaScript}- zobrazení minimapy, v  záložce Kontakty.
+
+\section{Bootstrap}
+\textbf{Bootstrap} - spravuje vzhled stránky, nejvíce souvisí se složkou view
+
+
+
+
+\chapter{Adresářová struktura}
+
+
+\section{controllers}
+\textbf{controllers} - obsahuje controllery, které získávají data z modelů.
+
+
+\section{css}
+\textbf{css} -Css styly aplikace.
+
+\section{Models}
+\textbf{models} - všechny kódy k práci s databazí, včetně logických operací.
+
+\section{Rescouse}
+\textbf{Rescouse} - složka, kam se ukladají pdf soubory nahrané na stránce.
+
+\section{Sablon}
+\textbf{Sablon} - ve složce je kód, který určuje vzhled stránky, včetně odkatů na použité prvky z webu.
+
+\section{views}
+\textbf{views} - složka, kde jsou uloženy jednotlivé kódy k zobrazení jednotlivých částí semestrální práce.
+
+
+
+
+\chapter{Architektura aplikace}
+\section{Controllers}
+Obsahuje tři třídy \textbf{homeController, newsController a useControler}
+\newline
+\textbf{homeController}  -zobrazuje titulní stránku s příspevky. \newline
+\textbf{newsController} -  zobrazuje příspěvky podle přihlášeného uživatele.\newline
+\textbf{userController}  - kontroluje přihlášení uživatele. K administrátorovy se chová stejně jako k uživateli s tím že, v potřebných funkcích má adminstrátor přidanou vyjímku.
+
+\section{Models} 
+Obsahuje dvě třídy \textbf{db a phpWrapper}. 
+Provádí se zde veškeré logické operace, včetně načítání z databází. 
+\section{view} 
+Obsahuje několik tříd, určených pro vzhled stránky.
+
+\chapter{Závěr}
+Semestrální práce splňuje všechny povinné části zadání a některé nepovinné(např. práje je uložena na \textbf{Github}). Uživatel se může registrovat nebo přihlásit, poté může přidavat, hodnotit nebo mazat některé příspěvky. Administrátor může evidovat uživatele, blokovat je nebo mazat. U příspěvků může rozhodnout, zda ho smazat, určit kdo ho bude hodnotit nebo určit, zda se zobrazí na fóru. 
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
